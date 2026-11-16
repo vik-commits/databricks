@@ -1,0 +1,13 @@
+Store_id,Store_location,Store_Region,Store_open_date
+S001,Boston,Northeast,2018-03-01
+S002,New York,Northeast,2018-03-01
+S003,Philadelphia,Northeast,2018-03-01
+S004,Atlanta,Southeast,2018-03-01
+S005,Miami,Southeast,2018-03-01
+S006,Chicago,Midwest,2018-03-01
+S007,Minneapolis,Midwest,2018-03-01
+S008,Phoenix,Southwest,2018-03-01
+S009,Albuquerque,Southwest,2018-03-01
+S010,Tucson,Southwest,2018-03-01
+S011,Seattle,West,2018-03-01
+S012,Denver,West,2018-03-01
