@@ -148,7 +148,7 @@ The Southwest region has the highest actual churn (26.0%); other regions fall be
 
 Because training uses balanced class weights, predicted probabilities run **higher than observed churn rates** in the low and middle bins. The model ranks customers well (high AUC and lift), but the raw scores should be read as relative risk, not literal probabilities. Adding a calibration step (e.g. `CalibratedClassifierCV` / isotonic regression) is a natural next improvement.
 
-### Leakage checks ✅
+### Leakage checks
 
 - The holdout **label** recomputed independently from the raw gold tables with Spark: **0 mismatches**
 - Holdout **recency** recomputed the same way: **0 mismatches**
